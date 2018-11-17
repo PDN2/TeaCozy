@@ -1,1 +1,82 @@
 /* Universal Styles */
+body {
+  font-family: helvetica;
+  font-size: 22px;
+/*  color: seashell; */
+  opacity: 0.9;
+}
+
+div {
+  border: 1px solid black;
+}
+
+/* header and nav */
+header {
+  display: flex;
+  align-items: center;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  height: 69px;
+  background-color: gray;
+  border-bottom: 1px solid white;
+}
+
+.header-nav {
+  display: flex;
+  text-align: right;
+  flex-grow: 1;
+  padding-left: 1027px;
+  justify-content: flex-end;
+}
+
+nav span {
+  display: inline-block;
+  padding: 20px 10px;
+}
+
+a {
+  color: seashell;
+}
+
+header img {
+  display: flex;
+  align-items: center;
+  height: 50px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+/* hero image section */
+.hero-image {
+  height: 700px;
+  align-items: center;
+  padding-top: 100px;
+  background-image: url("./resources/images/img-mission-background.jpg");
+}
+
+.header-text {
+
+text-align: center;
+color: black;
+width: 1200px;
+
+}
+
+.hero {
+  margin: 0;
+  width: 100%;
+}
+
+.all-items {
+  display: flex;
+  justify-content: center;
+  width: 1000px;
+  height: auto;
+}
+
+.store-items {
+  width: 300px;
+  height: 200px;
+  margin: 10px;
+}
