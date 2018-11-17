@@ -25,7 +25,6 @@ header {
 .header-nav {
   display: flex;
   text-align: right;
-  flex-grow: 1;
   padding-left: 1027px;
   justify-content: flex-end;
 }
@@ -68,15 +67,29 @@ width: 1200px;
   width: 100%;
 }
 
+.tea-of-the-month {
+  text-align: center;
+  align-self: center;
+}
+
 .all-items {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   width: 1000px;
   height: auto;
 }
 
 .store-items {
+  align-items: center;
+  margin: 10px;
+  text-align: center;
+}
+
+.store-items img {
+  display: flex;
+  flex-wrap: wrap;
   width: 300px;
   height: 200px;
-  margin: 10px;
+  opacity: 0.5;
 }
